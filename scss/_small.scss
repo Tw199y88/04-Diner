@@ -38,6 +38,7 @@ header {
     margin: 0;
     font-size: 1.2rem;
     font-weight: $normalWeight;
+
   }
 }
 
@@ -72,6 +73,7 @@ nav {
         color: white;
         text-align: center;
         text-decoration: none;
+        font-weight: $boldWeight;
         &:hover {
           background-color: darken($menuColor, 8%);
           color: black;
