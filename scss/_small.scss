@@ -25,7 +25,6 @@ body {
 }
 
 #headerWrapper {
-background: rgb(126,217,87);
 background: white;
   color: $secondaryColor;
 }
@@ -74,13 +73,13 @@ nav {
         text-align: center;
         text-decoration: none;
         &:hover {
-          background-color: darken($menuColor, 4%);
+          background-color: darken($menuColor, 8%);
           color: black;
         }
       }
     }
     li.active a {
-        background-color: darken($menuColor, 8%);
+        background-color: darken($menuColor, 12%);
     }
   }
   ul.open {

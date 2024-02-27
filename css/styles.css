@@ -337,7 +337,6 @@ body {
 }
 
 #headerWrapper {
-  background: rgb(126, 217, 87);
   background: white;
   color: rgb(239, 78, 138);
 }
@@ -385,11 +384,11 @@ nav ul li a {
   text-decoration: none;
 }
 nav ul li a:hover {
-  background-color: #fc659c;
+  background-color: #fb518f;
   color: black;
 }
 nav ul li.active a {
-  background-color: #fb518f;
+  background-color: #fb3d83;
 }
 nav ul.open {
   display: block;
